@@ -1,0 +1,3 @@
+interface:
+  display_name: "Backlog"
+  short_description: "Maintain repo-local issues and link implementation plans"

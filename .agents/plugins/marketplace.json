@@ -1,0 +1,20 @@
+{
+  "name": "codex-plugins",
+  "interface": {
+    "displayName": "Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "workflow-loop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/workflow-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
