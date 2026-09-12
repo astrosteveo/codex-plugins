@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Review"
+  short_description: "Independently review a plan or code changes"
+  default_prompt: "Use $workflow:review to review this plan or change set against the requirements."

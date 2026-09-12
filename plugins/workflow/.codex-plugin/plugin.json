@@ -1,0 +1,31 @@
+{
+  "name": "workflow",
+  "version": "0.1.0+codex.20260912002133",
+  "description": "A small software team for one request: an orchestrator routes work through discovery, planning, implementation, and independent review of both the plan and the code.",
+  "author": {
+    "name": "astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/codex-plugins/tree/main/plugins/workflow",
+  "repository": "https://github.com/astrosteveo/codex-plugins",
+  "keywords": [
+    "workflow",
+    "orchestration",
+    "brainstorming",
+    "planning",
+    "implementation",
+    "review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Workflow",
+    "shortDescription": "Discovery, plans, implementation, and independent review",
+    "longDescription": "A small software team for one request: an orchestrator routes work through discovery, planning, implementation, and independent review of both the plan and the code.",
+    "developerName": "astrosteveo",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use $workflow:orchestrate to deliver a feature from idea to reviewed code.",
+      "Use $workflow:orchestrate to review this branch."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Implement"
+  short_description: "Execute a plan and report validation evidence"
+  default_prompt: "Use $workflow:implement to execute the approved plan and report validation results."

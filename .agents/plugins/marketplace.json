@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "workflow-loop",
+      "name": "workflow",
       "source": {
         "source": "local",
-        "path": "./plugins/workflow-loop"
+        "path": "./plugins/workflow"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Writing Plans"
+  short_description: "Write an executable plan from a brief or requirements"
+  default_prompt: "Use $workflow:writing-plans to write an implementation plan from my discovery brief."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Orchestrate"
+  short_description: "Route work through the independently reviewed team"
+  default_prompt: "Use $workflow:orchestrate to deliver a feature from discovery through independent review."

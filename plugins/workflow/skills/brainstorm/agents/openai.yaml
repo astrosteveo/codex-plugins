@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Brainstorm"
+  short_description: "Explore an idea and save a discovery brief"
+  default_prompt: "Use $workflow:brainstorm to turn my rough idea into a discovery brief."

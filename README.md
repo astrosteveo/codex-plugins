@@ -6,20 +6,22 @@ A repository marketplace for Codex plugins.
 
 | Plugin | Purpose |
 | --- | --- |
-| [Workflow Loop](plugins/workflow-loop/README.md) | Brainstorm, approve a proposal, write the plan, and implement/review in one conversation. Flexible orchestration, three companion agents, and optional Claude collaboration. |
+| [Workflow](plugins/workflow/README.md) | Discovery, planning, implementation, and independent review of plans and code. Codex port of the Claude workflow team, with three companion agents. |
 
 From this repository's root, install the workflow:
 
 ```sh
 codex plugin marketplace add .
-codex plugin add workflow-loop@codex-plugins
+codex plugin add workflow@codex-plugins
 ```
 
-Start a new Codex session after installation and use `$workflow-loop:brainstorm`
-or `$workflow-loop:orchestrate`. See the
-[plugin guide](plugins/workflow-loop/README.md#companion-agents) for optional native
+Start a new Codex session after installation and use `$workflow:brainstorm`
+or `$workflow:orchestrate`. See the
+[plugin guide](plugins/workflow/README.md#companion-agents) for optional native
 agent setup; the orchestrator can also use the bundled definitions with generic
 subagents.
+
+The former `workflow-loop` plugin is retired. See the [migration notes](plugins/workflow/README.md#replacing-workflow-loop) for existing installations.
 
 ## Structure
 
@@ -56,8 +58,8 @@ codex plugin marketplace add .
 codex plugin marketplace list
 ```
 
-Registration makes the catalog available to Codex. Install Workflow Loop with
-`codex plugin add workflow-loop@codex-plugins`.
+Registration makes the catalog available to Codex. Install Workflow with
+`codex plugin add workflow@codex-plugins`.
 
 After publishing this repository to a Git host, users can register its HTTPS Git URL instead of a local path. GitHub repositories also support `owner/repo` and an optional `--ref` argument.
 
